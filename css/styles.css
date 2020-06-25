@@ -39,6 +39,8 @@
 *::after {
   box-sizing: border-box; }
 
+  
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -358,6 +360,20 @@ mark,
 .mark {
   padding: 0.2em;
   background-color: #fcf8e3; }
+
+/* .carousel-inner> .carousel-item {
+    max-height: 620px;
+    max-width: 439px;
+} */
+
+.carousel-indicators .active{
+  background-color: #000;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
 
 .list-unstyled {
   padding-left: 0;
